@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298365951894",
+    "project_id": "u3p2notas",
+    "storage_bucket": "u3p2notas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298365951894:android:7055128c640192548e87b7",
+        "android_client_info": {
+          "package_name": "mx.tecm.tepic.ladm_u3_p2_notas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298365951894-vs26sag4vqfumrki8dk30opci8n98lmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOkelgBrPQZbhDGphkX--kYcD7rsQN13Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298365951894-vs26sag4vqfumrki8dk30opci8n98lmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

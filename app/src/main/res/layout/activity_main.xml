@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b9e2e6"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="Notas"/>
+
+    <EditText
+        android:id="@+id/EditTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Descripción del evento"
+        android:inputType="textImeMultiLine"
+        />
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/EditTextHora"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:hint="dd/mm/yyyy"
+            android:inputType="date"
+            />
+
+        <EditText
+            android:id="@+id/EditTextLugar"
+            android:layout_width="180dp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:hint="00:00"
+            android:background="@color/white"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:inputType="time"
+            />
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/EditTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Lugar del evento"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar"
+        android:textSize="18dp"
+        android:id="@+id/btnSincronizar"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:id="@+id/lista"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:textSize="32dp"
+        android:background="@drawable/boton_redondo"
+        android:layout_gravity="right"
+        android:id="@+id/btnInsertar"
+        />
+
+</LinearLayout>
